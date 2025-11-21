@@ -1,6 +1,39 @@
 <h1> hello hi </h1>
 
+docker
+sudo apt update
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+docker --version
+cd desktop
+mkdir apple
+cd apple
+nano fruit.py
+nano dockerfile
+FROM python:3.9
+WORKDIR /fruit
+COPY . /fruit
+CMD ["python","fruit.py"]
+sudo docker build -t myapp .
+sudo docker images
+sudo docker run myapp
 
+github
+cd desktop
+mkdir devops
+cd devops
+nano regi.html
+git init
+git status
+git add regi.html
+git commit -m "add"
+git remote add origin link
+git push -u origin master/main
+username:GangavathManeesha
+pass:settings->dev settings->personaltokens classic tokens->gen tokens classic->desc rep select->gen token pass
+paste password in terminal passsword:
+for update git pull origin master/main
 
 
 
